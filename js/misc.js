@@ -3,9 +3,7 @@ var h = window.innerHeight;
 var h1=(h/2)-200;
 $(document).ready(function(){
     $('.login-form').css(
-        
         {"margin-top":""+h1+"px"},
-        
     );
 });
 
