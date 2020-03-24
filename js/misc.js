@@ -14,12 +14,14 @@ $(document).ready(function(){
 		if (x.type == "password") 
 		{
 			x.type = "text";
-			$(this).html('<span class="fas fa-eye field-icon toggle-password" id="pw-toggle"></span>');
+			$('#pw-toggle').removeClass("fa-eye-slash");
+			$('#pw-toggle').addClass("fa-eye");
 		}
 		else 
 		{
 			x.type = "password";
-			$(this).html('<span class="fas fa-eye-slash field-icon toggle-password" id="pw-toggle"></span>');
+			$('#pw-toggle').removeClass("fa-eye");
+			$('#pw-toggle').addClass("fa-eye-slash");
 		}
 	});
 });
