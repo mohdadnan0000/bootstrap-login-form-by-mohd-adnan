@@ -1,0 +1,26 @@
+/*CSS For Login Portal Start*/
+	.login-form .form-control {border: 1px solid #000000;border-radius: 0px;}
+
+	.login-form .form-group { position: relative; margin-bottom: 1.5rem; }
+
+	.login-form .form-control-placeholder { color: black; position: absolute; font-weight: bold; top: 0; padding: 
+	7px 0 0 13px; transition: all 200ms; opacity: 0.5; }
+
+	.login-form .form-control:focus + .form-control-placeholder,.form-control:valid + .form-control-placeholder  {font-size: 75%;margin-left: 10pt;margin-top: -1pt;transform: translate3d(0, -40%, 0);opacity: 1;color: #007bff;background: #f5f5f5;padding: 4px; }
+
+	.login-form .form-control:focus { border-color: #007bff; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 0px rgba(126, 239, 104, 0.6); outline: 0 none; }
+
+	.login-form {margin: auto;background-color: #f5f5f5;height: 25em;padding: 40px;box-shadow: 0px 2px 19px 5px rgba(0,0,0,0.75);}
+
+	.login-form #signin {position: absolute;right:35px;bottom: 35px;width: 5em;font-size: 15pt;cursor: pointer;}
+
+	.login-form #create-account {position: absolute;left: 44px;bottom: 45px;width: 11em;font-size: 10pt;color: #007bff;font-weight: 500;cursor: pointer;}
+
+	.login-form #forgot-password {position: absolute;right: 0;bottom: 110px;width: 11em;font-size: 10pt;color: #007bff;font-weight: 500;cursor: pointer;}
+
+	.login-form #user-field {margin-top: 10%;}
+
+	.login-form #pass-field {margin-top: 5%;}
+
+	.login-form .field-icon { float: right;margin-right: 10px;margin-top: -27px;position: relative;z-index: 2;color: black;font-size: 14pt;cursor: pointer;}
+/*CSS For Login Portal End*/	
